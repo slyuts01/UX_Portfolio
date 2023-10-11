@@ -760,6 +760,26 @@ body.dark-mode {
 	z-index: -1;
 }
 
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  transition: transform 1s ease;
+}
+
+#current_reads{
+	margin-left:45%;
+	margin-bottom: 20px;
+	
+
+}
 /* Footer */
 
 footer {
